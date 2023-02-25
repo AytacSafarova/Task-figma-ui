@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #8a8a8a;
+}
+.container {
+  width: 430px;
+  height: 300px;
+  margin: auto;
+  border-radius: 24px;
+  background: url("https://s3-alpha-sig.figma.com/img/57b8/21bf/6524281b206b72b0a1e17ab08fcf408b?Expires=1678060800&Signature=dZr-K2lwCE5Ckigf8QIxtUhl4TSk0ueejeN7rzCABBnDdToaoYx6nvx2pfkPRKs3~RrBl3GVAyqyEErQNYz-m44bJhV8wbvuoMJ49wxPzzn9-0Sgw35hLz0NSfZkSt4I9YBHM~4CtEH9RewWUhYXG7wU~Q673cPwz~8AbHmEhhuf-W5gD7fRQ91oeiRSaWbOoqbtEVegcvQSyFqxg~x0XWy320~T2FflFitpdu8m3Dna8qcPfX-R6h4CRemO9pB3ltmRu5sw~9qQqcKZLnXpAYFp~rEi~s35MusP6q3sR1inW15SvQsk31uTd5wMDaGITWMuBbP8cCNfFlhLJKeYrA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+header {
+  padding-top: 37px;
+  padding-left: 10px;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.circle {
+  width: 37.95px;
+  height: 36px;
+
+  border-radius: 24px;
+  padding: 10px;
+}
+.vector {
+  width: 17.95px;
+  height: 16px;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  color: #ffffff;
+  text-align: center;
+}
+
+form {
+  border-radius: 24px;
+
+  padding-top: 34px;
+  /* padding-left: 24px; */
+  padding-right: 24px;
+}
+.form_title {
+  display: flex;
+}
+.form_title input {
+  width: 181px;
+  height: 53px;
+}
+input {
+  background-color: #f5f5f7;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+}
+label {
+  display: block;
+  color: #616161;
+}
+.name {
+  margin-right: 20px;
+}
+.collaj {
+  margin-bottom: 20px;
+}
+.iconCollaj {
+  display: flex;
+}
+.iconCollaj .circle {
+  margin: auto;
+  margin-left: 20px;
+}
+.inputLabel input {
+  width: 337px;
+  height: 53px;
+}
+
+button {
+  background-color: #2fcc87;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  font-family: Roboto;
+  font-weight: 500;
+}
